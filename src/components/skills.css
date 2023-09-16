@@ -1,0 +1,47 @@
+/* Skills */
+
+.skills{
+    margin: 15%;
+    padding: 45px 50 50px 0;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.skill-bx{
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: -60px;
+}
+
+.skill-bx h2{
+    padding: 0%;
+    margin: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skills h5{
+    margin: 2%;
+    padding: 0% 10%;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.skills p{
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.skill-slider{
+    width:30%;
+    margin:0 auto;
+    position: relative;
+}
+.skill-bx img{
+    padding: 0%;
+}

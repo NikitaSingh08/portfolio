@@ -1,0 +1,93 @@
+/*Defaul CSS */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body{
+    font-weight: 400;
+    overflow-x:hidden;
+    position: relative;
+    background-color: #121212;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 150px 0px;
+    padding: 10px;
+    /* color:#121212; */
+    /* line-height: normal; */
+}
+
+nav.navbar{
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:#000000;
+    /* z-index: 9999; */
+    transition: 0.32 ease-in-out;
+}
+
+nav.navbar a.navbar-brand{
+    width:9%;
+}
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+.social-icon{
+    display: inline-block;
+    margin-left: 600px;
+}
+
+.social-icon a {
+   width: 42px;
+   height: 42px;
+   background: rgba(217, 217, 217, 0.1);
+   display: inline-flex;
+   border-radius: 50%;
+   margin-right: 6px;
+   align-items: center;
+   justify-content: center;
+   line-height: 1;
+   border: 1px solid rgba(255, 255, 255, 0.5)
+}
+.contactImg{
+    width:20px;
+}
+.social-icon a::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+ }
+
+ .social-icon a:hover::before {
+    transition: scale(1);
+ }
+
+ .social-icon a img{
+    width: 40%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+ }
+
+ .social-icon a:hover img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg);
+ }
+
+
+
+
